@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: Lightgreen;
+}
+
+.pagination {   
+    display: inline-block;   
+}   
+.pagination a {   
+    font-weight:bold;   
+    font-size:18px;   
+    color: black;   
+    float: left;   
+    padding: 8px 8px;   
+    text-decoration: none;   
+    border:1px solid black;   
+}   
+.pagination a.active {   
+        background-color: pink;   
+}   
+.pagination a:hover:not(.active) {   
+    background-color: skyblue;   
+} 

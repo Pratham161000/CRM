@@ -1,0 +1,69 @@
+<!-- <?php 
+
+include ('connection.php');
+$sql ="select * from studentinfo";
+$data =mysqli_query($con,$sql);
+$total=mysqli_num_rows($data); -->
+
+
+// if ($total=mysqli_num_rows($data)) {
+// 	?>
+<!-- // 	<table border="2">
+// <tr>
+// <th>Student ID</th>
+// <th>Student Name</th>
+// <th>Student Gender</th>
+// <th>Student Standard</th>
+// <th>Student City</th>
+// <th>Student School Name</th>
+// <th>Delete</th>
+// <th>Update</th>
+// </tr> -->
+
+// 	<?php
+	
+// 	while ($result = mysqli_fetch_array($data)) {
+
+// 		echo " 
+// 			<tr>
+// 				<td>".$result['stid']."</td>
+// 				<td>".$result['stname']."</td>
+// 				<td>".$result['stgender']."</td>
+// 				<td>".$result['ststandard']."</td>
+// 				<td>".$result['stcity']."</td>
+// 				<td>".$result['stschoolname']."</td>
+// 				<td><a href='update.php?stid=$result[stid] & stname=$result[stname] & stgender=$result[stgender] & ststandard=$result[ststandard] & stcity=$result[stcity] &stschoolname=$result[stschoolname]'> update </a></td>
+// 				<td><a href='delete.php?stid=$result[stid] '>delete </a></td>
+// 			</tr>
+// 		";
+// 	}
+// }
+// else
+// {
+//  	echo "no record found";
+// }
+
+?>
+
+<!-- <html>
+    <head>
+        <title>Admin page</title>
+    </head>
+    <body>
+        <a href="admin.php"><button value="home" />Back to Home Page </a>
+    </body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php echo $row["stdemail"]; ?>
